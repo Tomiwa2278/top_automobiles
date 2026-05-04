@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <script>(function(){var t=localStorage.getItem('theme')||'dark';document.documentElement.setAttribute('data-theme',t);})();</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Services — AutoVibe Motors</title>
+  <meta name="description" content="Explore our full range of services: new car sales, certified pre-owned, financing, trade-in, and expert maintenance in Nigeria.">
+  <meta property="og:title" content="Premium Services — AutoVibe Motors">
+  <meta property="og:description" content="Comprehensive automotive solutions for every need. Browse our inventory and expert services.">
+  <meta property="og:image" content="assets/images/hero/hero-services.jpg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <nav class="navbar"><div class="container">
+      <a href="index.html" class="nav-logo">
+        <div class="logo-icon">AV</div>
+        Auto<span>Vibe</span>
+      </a>
+    <div class="nav-actions">
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li><li><a href="services.html">Services</a></li><li><a href="about.html">About</a></li><li><a href="reviews.html">Reviews</a></li><li><a href="faq.html">FAQ</a></li><li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="theme-toggle" aria-label="Toggle theme"><span></span></button>
+      <div class="hamburger"><span></span><span></span><span></span></div>
+    </div>
+  </div></nav>
+
+  <section class="page-hero" style="background-image:url('assets/images/hero/hero-services.jpg');">
+    <div style="position:absolute;inset:0;background:var(--overlay);z-index:0;"></div>
+    <div style="position:relative;z-index:1;">
+      <h1>Our <span class="gold">Services</span></h1>
+      <p>Comprehensive automotive solutions for every need.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="cards-grid">
+        <div class="card reveal">
+          <div class="card-icon"><i class="fas fa-car"></i></div>
+          <h3>New Car Sales</h3>
+          <p>Discover the latest models from top manufacturers. Every car comes with full manufacturer warranty and our AutoVibe quality guarantee.</p>
+          <a href="contact.html" class="btn btn-sm btn-primary" style="margin-top:20px;"><i class="fas fa-arrow-right"></i>Get Started</a>
+        </div>
+        <div class="card reveal">
+          <div class="card-icon"><i class="fas fa-circle-check"></i></div>
+          <h3>Certified Pre-Owned</h3>
+          <p>Each pre-owned vehicle undergoes a rigorous 150-point inspection. We certify quality so you can buy with complete confidence.</p>
+          <a href="contact.html" class="btn btn-sm btn-primary" style="margin-top:20px;"><i class="fas fa-arrow-right"></i>Get Started</a>
+        </div>
+        <div class="card reveal">
+          <div class="card-icon"><i class="fas fa-credit-card"></i></div>
+          <h3>Car Financing</h3>
+          <p>Flexible payment plans with competitive interest rates. We partner with leading banks to offer you the best options.</p>
+          <a href="contact.html" class="btn btn-sm btn-primary" style="margin-top:20px;"><i class="fas fa-arrow-right"></i>Get Started</a>
+        </div>
+        <div class="card reveal">
+          <div class="card-icon"><i class="fas fa-arrows-rotate"></i></div>
+          <h3>Trade-In Program</h3>
+          <p>Upgrade your ride! Trade in your current vehicle and get a fair market valuation applied directly toward your new purchase.</p>
+          <a href="contact.html" class="btn btn-sm btn-primary" style="margin-top:20px;"><i class="fas fa-arrow-right"></i>Get Started</a>
+        </div>
+        <div class="card reveal">
+          <div class="card-icon"><i class="fas fa-wrench"></i></div>
+          <h3>Maintenance</h3>
+          <p>Our certified technicians provide expert servicing, repairs, and genuine spare parts to keep your car in peak condition.</p>
+          <a href="contact.html" class="btn btn-sm btn-primary" style="margin-top:20px;"><i class="fas fa-arrow-right"></i>Get Started</a>
+        </div>
+        <div class="card reveal">
+          <div class="card-icon"><i class="fas fa-shield-halved"></i></div>
+          <h3>Insurance</h3>
+          <p>We help you secure the best insurance coverage for your vehicle, working with top providers to protect you on the road.</p>
+          <a href="contact.html" class="btn btn-sm btn-primary" style="margin-top:20px;"><i class="fas fa-arrow-right"></i>Get Started</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INVENTORY -->
+  <section class="section" style="background:var(--bg-secondary);">
+    <div class="container">
+      <h2 class="section-title reveal">Our <span class="gold">Inventory</span></h2>
+      <p class="section-subtitle reveal">Browse our current selection of available vehicles.</p>
+      <div class="filter-bar reveal">
+        <select id="filter-brand">
+          <option value="">All Brands</option>
+          <option value="porsche">Porsche</option>
+          <option value="mercedes">Mercedes-Benz</option>
+          <option value="bmw">BMW</option>
+          <option value="audi">Audi</option>
+          <option value="toyota">Toyota</option>
+          <option value="ford">Ford</option>
+          <option value="honda">Honda</option>
+          <option value="lamborghini">Lamborghini</option>
+          <option value="nissan">Nissan</option>
+          <option value="chevrolet">Chevrolet</option>
+          <option value="jaguar">Jaguar</option>
+        </select>
+        <select id="filter-price">
+          <option value="">All Prices</option>
+          <option value="0-50000000">Under ₦50M</option>
+          <option value="50000000-100000000">₦50M – ₦100M</option>
+          <option value="100000000-200000000">₦100M – ₦200M</option>
+          <option value="200000000-999999999">₦200M+</option>
+        </select>
+      </div>
+      <div class="inventory-grid">
+        <!-- Dynamic Inventory Injected via JS -->
+      </div>
+    </div>
+  </section>
+
+  <div id="footer-placeholder"></div>
+  <a href="https://wa.me/2348143905306" class="whatsapp-btn" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+  <button id="back-to-top" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
+  <script src="js/main.js"></script>
+</body>
+</html>

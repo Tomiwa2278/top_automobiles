@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <script>(function(){var t=localStorage.getItem('theme')||'dark';document.documentElement.setAttribute('data-theme',t);})();</script>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Customer Reviews — AutoVibe Motors</title>
+  <meta name="description" content="See what our customers say about AutoVibe Motors. 4.9/5 from 320+ verified reviews. Quality service you can trust.">
+  <meta property="og:title" content="Customer Reviews — AutoVibe Motors">
+  <meta property="og:description" content="Read real feedback from real AutoVibe customers. Join our community of happy drivers.">
+  <meta property="og:image" content="assets/images/hero/hero-reviews.jpg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar"><div class="container">
+    <a href="index.html" class="nav-logo">
+      <div class="logo-icon">AV</div>
+      Auto<span>Vibe</span>
+    </a>
+    <div class="nav-actions">
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li><li><a href="services.html">Services</a></li><li><a href="about.html">About</a></li><li><a href="reviews.html">Reviews</a></li><li><a href="faq.html">FAQ</a></li><li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="theme-toggle" aria-label="Toggle theme"><span></span></button>
+      <div class="hamburger"><span></span><span></span><span></span></div>
+    </div>
+  </div></nav>
+
+  <section class="page-hero" style="background-image:url('assets/images/hero/hero-reviews.jpg');">
+    <div style="position:absolute;inset:0;background:var(--overlay);z-index:0;"></div>
+    <div style="position:relative;z-index:1;"><h1>Customer <span class="gold">Reviews</span></h1><p>Real feedback from real AutoVibe customers.</p></div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="aggregate-rating reveal" style="display:flex; flex-direction:column; align-items:center;">
+        <div style="display:flex; align-items:center; gap:24px; margin-bottom:12px;">
+          <div class="big-number">4.9</div>
+          <div style="text-align:left;">
+            <div class="stars" style="font-size:1.8rem;">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-stroke"></i>
+            </div>
+            <p style="color:var(--text-secondary); margin-top:4px;">Based on 320+ verified reviews</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card review-card reveal">
+          <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+          <p class="quote">"AutoVibe made buying my first car stress-free. The team was incredibly helpful! Got my Toyota Camry and couldn't be happier."</p>
+          <p class="author">— Chidi O.</p>
+        </div>
+        <div class="testimonial-card review-card reveal">
+          <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+          <p class="quote">"Got a fantastic deal on my BMW X5. The process was smooth from test drive to delivery."</p>
+          <p class="author">— Amara N.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background:var(--bg-secondary);">
+    <div class="container" style="max-width:640px;">
+      <h2 class="section-title reveal">Submit Your <span class="gold">Review</span></h2>
+      <p class="section-subtitle reveal">We'd love to hear about your AutoVibe experience.</p>
+      <form class="ajax-form reveal">
+        <div class="form-group"><label>Your Name</label><input class="form-input" placeholder="Full Name" required></div>
+        <div class="form-group">
+          <label>Your Rating</label>
+          <div class="star-selector" style="margin-bottom:8px;">
+            <!-- Stars Injected via JS -->
+          </div>
+          <p id="rating-label" style="font-size:0.9rem; color:var(--text-muted); font-weight:600;">Select your rating</p>
+          <input type="hidden" id="star-rating-value" value="0">
+        </div>
+        <div class="form-group"><label>Your Review</label><textarea class="form-input" placeholder="Tell us about your experience..." required></textarea></div>
+        <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;">Submit Review</button>
+      </form>
+    </div>
+  </section>
+
+  <div id="footer-placeholder"></div>
+  <a href="https://wa.me/2348143905306" class="whatsapp-btn" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+  <button id="back-to-top" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
+  <script src="js/main.js"></script>
+</body>
+</html>
