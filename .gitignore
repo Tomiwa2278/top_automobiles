@@ -1,0 +1,11 @@
+node_modules/
+.DS_Store
+*.log
+process_new_image.js
+process_hero_image.js
+find_emojis.js
+optimize_images.js
+update_references.js
+enhance_html.js
+generate_report.js
+package-lock.json

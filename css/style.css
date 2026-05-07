@@ -518,7 +518,17 @@ select {
 @media (max-width: 768px) {
   .slide-info {
     padding: 40px 60px;
-    /* Increased from 40px to 60px for mobile */
+  }
+  .carousel-btn {
+    width: 44px;
+    height: 44px;
+    font-size: 1.1rem;
+  }
+  .carousel-btn.prev {
+    left: 10px;
+  }
+  .carousel-btn.next {
+    right: 10px;
   }
 }
 
@@ -1397,6 +1407,24 @@ select.form-input {
   line-height: 1.8;
 }
 
+.footer-contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.footer-contact-item i {
+  color: var(--gold);
+  margin-top: 5px;
+  width: 16px;
+  text-align: center;
+}
+
+.footer-contact-item p {
+  margin-bottom: 0;
+}
+
 .footer-col a {
   display: block;
   color: var(--text-secondary);
@@ -1420,6 +1448,24 @@ select.form-input {
 
 .footer-logo span {
   color: var(--text-primary);
+}
+
+.mission-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .mission-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  
+  .mission-grid img {
+    height: 250px !important;
+  }
 }
 
 .footer-logo img {
@@ -1679,7 +1725,7 @@ select.form-input {
   }
 
   .slide-info {
-    padding: 40px;
+    padding: 40px 60px;
   }
 
   .slide-info h3 {
@@ -1720,6 +1766,32 @@ select.form-input {
 
   .cards-grid {
     grid-template-columns: 1fr;
+  }
+
+  .slide-info {
+    padding: 30px 50px;
+  }
+
+  .slide-info h3 {
+    font-size: 1.3rem;
+  }
+
+  .slide-info .price {
+    font-size: 1.4rem;
+  }
+
+  .carousel-btn {
+    width: 36px;
+    height: 36px;
+    font-size: 0.9rem;
+  }
+
+  .carousel-btn.prev {
+    left: 8px;
+  }
+
+  .carousel-btn.next {
+    right: 8px;
   }
 
   .inventory-grid {

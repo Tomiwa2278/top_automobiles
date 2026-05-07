@@ -41,25 +41,25 @@ async function loadFooter() {
 
 // ===== DYNAMIC CAR DATA =====
 const carInventory = [
-  { file: 'porsche-panamera-2024.jpg', name: 'Porsche Panamera 2024', price: '₦125,000,000', specs: '2.9L V6 · 325 HP · AWD · 18/24 MPG', brand: 'porsche' },
-  { file: 'porsche-911-2024.jpg', name: 'Porsche 911 2024', price: '₦145,000,000', specs: '3.0L Flat-6 · 379 HP · RWD · 18/24 MPG', brand: 'porsche' },
-  { file: 'audi-a5-coupe-2024.jpg', name: 'Audi A5 Coupe 2024', price: '₦55,000,000', specs: '2.0L Turbo · 261 HP · AWD · 24/32 MPG', brand: 'audi' },
-  { file: 'nissan-gt-r-2024.jpg', name: 'Nissan GT-R 2024', price: '₦135,000,000', specs: '3.8L V6 · 565 HP · AWD · 16/22 MPG', brand: 'nissan' },
-  { file: 'mercedes-benz-amg-gt-2024.jpg', name: 'Mercedes-AMG GT 2024', price: '₦155,000,000', specs: '4.0L V8 · 523 HP · RWD · 15/20 MPG', brand: 'mercedes' },
-  { file: 'bmw-m4-2024.jpg', name: 'BMW M4 2024', price: '₦88,000,000', specs: '3.0L 6-Cyl · 473 HP · RWD · 16/23 MPG', brand: 'bmw' },
-  { file: 'porsche-911-carrera-2024.jpg', name: 'Porsche 911 Carrera 2024', price: '₦140,000,000', specs: '3.0L Flat-6 · 379 HP · RWD · 18/24 MPG', brand: 'porsche' },
-  { file: 'bmw-m4-dawn-2024.jpg', name: 'BMW M4 Competition 2024', price: '₦98,000,000', specs: '3.0L 6-Cyl · 503 HP · AWD · 16/23 MPG', brand: 'bmw' },
-  { file: 'bmw-m2-2024.jpg', name: 'BMW M2 2024', price: '₦65,000,000', specs: '3.0L 6-Cyl · 453 HP · RWD · 16/24 MPG', brand: 'bmw' },
-  { file: 'jaguar-f-type-2024.jpg', name: 'Jaguar F-Type 2024', price: '₦75,000,000', specs: '5.0L V8 · 444 HP · RWD · 17/24 MPG', brand: 'jaguar' },
-  { file: 'toyota-supra-2024.jpg', name: 'Toyota Supra 2024', price: '₦48,000,000', specs: '3.0L 6-Cyl · 382 HP · RWD · 23/31 MPG', brand: 'toyota' },
-  { file: 'chevrolet-camaro-ss-2024.jpg', name: 'Chevrolet Camaro SS 2024', price: '₦58,000,000', specs: '6.2L V8 · 455 HP · RWD · 16/24 MPG', brand: 'chevrolet' },
-  { file: 'ford-explorer-2024.jpg', name: 'Ford Explorer 2024', price: '₦45,000,000', specs: '2.3L Turbo · 300 HP · AWD · 21/28 MPG', brand: 'ford' },
-  { file: 'mercedes-benz-s-class-2024.jpg', name: 'Mercedes-Benz S-Class 2024', price: '₦165,000,000', specs: '3.0L Turbo · 429 HP · AWD · 20/28 MPG', brand: 'mercedes' },
-  { file: 'lamborghini-huracan-2024.jpg', name: 'Lamborghini Huracán 2024', price: '₦285,000,000', specs: '5.2L V10 · 631 HP · AWD · 13/18 MPG', brand: 'lamborghini' },
-  { file: 'ford-mustang-gt-2024.avif', name: 'Ford Mustang GT 2024', price: '₦68,000,000', specs: '5.0L V8 · 450 HP · RWD · 15/24 MPG', brand: 'ford' },
-  { file: 'honda-cr-v-2024.jpg', name: 'Honda CR-V 2024', price: '₦38,500,000', specs: '1.5L Turbo · 190 HP · AWD · 28/34 MPG', brand: 'honda' },
+  { file: 'porsche-panamera-2024.webp', name: 'Porsche Panamera 2024', price: '₦125,000,000', specs: '2.9L V6 · 325 HP · AWD · 18/24 MPG', brand: 'porsche' },
+  { file: 'porsche-911-2024.webp', name: 'Porsche 911 2024', price: '₦145,000,000', specs: '3.0L Flat-6 · 379 HP · RWD · 18/24 MPG', brand: 'porsche' },
+  { file: 'audi-a5-coupe-2024.webp', name: 'Audi A5 Coupe 2024', price: '₦55,000,000', specs: '2.0L Turbo · 261 HP · AWD · 24/32 MPG', brand: 'audi' },
+  { file: 'nissan-gt-r-2024.webp', name: 'Nissan GT-R 2024', price: '₦135,000,000', specs: '3.8L V6 · 565 HP · AWD · 16/22 MPG', brand: 'nissan' },
+  { file: 'mercedes-benz-amg-gt-2024.webp', name: 'Mercedes-AMG GT 2024', price: '₦155,000,000', specs: '4.0L V8 · 523 HP · RWD · 15/20 MPG', brand: 'mercedes' },
+  { file: 'bmw-m4-2024.webp', name: 'BMW M4 2024', price: '₦88,000,000', specs: '3.0L 6-Cyl · 473 HP · RWD · 16/23 MPG', brand: 'bmw' },
+  { file: 'porsche-911-carrera-2024.webp', name: 'Porsche 911 Carrera 2024', price: '₦140,000,000', specs: '3.0L Flat-6 · 379 HP · RWD · 18/24 MPG', brand: 'porsche' },
+  { file: 'bmw-m4-dawn-2024.webp', name: 'BMW M4 Competition 2024', price: '₦98,000,000', specs: '3.0L 6-Cyl · 503 HP · AWD · 16/23 MPG', brand: 'bmw' },
+  { file: 'bmw-m2-2024.webp', name: 'BMW M2 2024', price: '₦65,000,000', specs: '3.0L 6-Cyl · 453 HP · RWD · 16/24 MPG', brand: 'bmw' },
+  { file: 'jaguar-f-type-2024.webp', name: 'Jaguar F-Type 2024', price: '₦75,000,000', specs: '5.0L V8 · 444 HP · RWD · 17/24 MPG', brand: 'jaguar' },
+  { file: 'toyota-supra-2024.webp', name: 'Toyota Supra 2024', price: '₦48,000,000', specs: '3.0L 6-Cyl · 382 HP · RWD · 23/31 MPG', brand: 'toyota' },
+  { file: 'chevrolet-camaro-ss-2024.webp', name: 'Chevrolet Camaro SS 2024', price: '₦58,000,000', specs: '6.2L V8 · 455 HP · RWD · 16/24 MPG', brand: 'chevrolet' },
+  { file: 'ford-explorer-2024.webp', name: 'Ford Explorer 2024', price: '₦45,000,000', specs: '2.3L Turbo · 300 HP · AWD · 21/28 MPG', brand: 'ford' },
+  { file: 'mercedes-benz-s-class-2024.webp', name: 'Mercedes-Benz S-Class 2024', price: '₦165,000,000', specs: '3.0L Turbo · 429 HP · AWD · 20/28 MPG', brand: 'mercedes' },
+  { file: 'lamborghini-huracan-2024.webp', name: 'Lamborghini Huracán 2024', price: '₦285,000,000', specs: '5.2L V10 · 631 HP · AWD · 13/18 MPG', brand: 'lamborghini' },
+  { file: 'ford-mustang-gt-2024.webp', name: 'Ford Mustang GT 2024', price: '₦68,000,000', specs: '5.0L V8 · 450 HP · RWD · 15/24 MPG', brand: 'ford' },
+  { file: 'honda-cr-v-2024.webp', name: 'Honda CR-V 2024', price: '₦38,500,000', specs: '1.5L Turbo · 190 HP · AWD · 28/34 MPG', brand: 'honda' },
   { file: 'mercedes-benz-c300-2024.webp', name: 'Mercedes-Benz C300 2024', price: '₦95,000,000', specs: '2.0L Turbo · 255 HP · AWD · 23/33 MPG', brand: 'mercedes' },
-  { file: 'toyota-camry-2024.avif', name: 'Toyota Camry 2024', price: '₦42,000,000', specs: '2.5L 4-Cyl · 203 HP · FWD · 28/39 MPG', brand: 'toyota' }
+  { file: 'toyota-camry-2024.webp', name: 'Toyota Camry 2024', price: '₦42,000,000', specs: '2.5L 4-Cyl · 203 HP · FWD · 28/39 MPG', brand: 'toyota' }
 ];
 
 // ===== DYNAMIC CAROUSEL =====
@@ -119,7 +119,13 @@ function renderInventory() {
   inventoryGrid.innerHTML = carInventory.map(car => `
     <div class="inventory-card reveal" data-brand="${car.brand}" data-price="${parseInt(car.price.replace(/[^\d]/g, ''))}">
       <div class="card-img">
-        <img src="assets/images/cars/${car.file}" alt="${car.name} – AutoVibe Motors">
+        <picture>
+          <source srcset="assets/images/cars/${car.file}" type="image/webp">
+          <img src="assets/images/cars/${car.file.replace('.webp', '.jpg')}" 
+               alt="${car.name} – AutoVibe Motors" 
+               width="800" height="450" 
+               loading="lazy">
+        </picture>
       </div>
       <div class="card-body">
         <h3>${car.name}</h3>
@@ -231,9 +237,16 @@ window.openCarModal = function(file) {
 
   modal.innerHTML = `
     <div class="modal">
-      <button class="modal-close" onclick="closeCarModal()">✕</button>
+      <button class="modal-close" onclick="closeCarModal()"><i class="fas fa-times"></i></button>
       <div style="aspect-ratio:16/9; overflow:hidden; border-radius:8px; margin-bottom:24px;">
-        <img src="assets/images/cars/${car.file}" alt="${car.name}" style="width:100%; height:100%; object-fit:cover;">
+        <picture>
+          <source srcset="assets/images/cars/${car.file}" type="image/webp">
+          <img src="assets/images/cars/${car.file.replace('.webp', '.jpg')}" 
+               alt="${car.name}" 
+               width="800" height="450" 
+               loading="lazy"
+               style="width:100%; height:100%; object-fit:cover;">
+        </picture>
       </div>
       <h2 style="font-family:var(--font-heading); margin-bottom:8px;">${car.name}</h2>
       <div class="modal-stars" style="color:var(--gold); margin-bottom:12px;">

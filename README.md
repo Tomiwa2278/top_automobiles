@@ -2,7 +2,7 @@
 
 AutoVibe Motors is a high-end, responsive multi-page website designed for a luxury car dealership in Nigeria. The platform features a sophisticated dark/light theme system, an interactive car inventory, and a professional aesthetic tailored for a premium user experience.
 
-## ✨ Key Features
+## Key Features
 
 - **Dynamic Inventory System**: Filterable car listings by brand and price range.
 - **Premium Design System**: Glassmorphism, gold accents, and smooth scroll animations.
@@ -12,7 +12,7 @@ AutoVibe Motors is a high-end, responsive multi-page website designed for a luxu
 - **Shared Components**: Dynamic footer loading across all pages for easy maintenance.
 - **Functional UI Elements**: Interactive car detail modals, FAQ accordions, and simulated form handling.
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 ├── assets/
@@ -35,7 +35,7 @@ AutoVibe Motors is a high-end, responsive multi-page website designed for a luxu
 └── terms-of-use.html
 ```
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **HTML5**: Semantic structure for better SEO and accessibility.
 - **Vanilla CSS3**: Custom design tokens, CSS Grid, Flexbox, and Keyframe animations.
@@ -43,13 +43,13 @@ AutoVibe Motors is a high-end, responsive multi-page website designed for a luxu
 - **Font Awesome 6**: Premium icon set for consistent visual language.
 - **Google Fonts**: Inter (Body) and Playfair Display (Heading).
 
-## 🚀 How to Run
+## How to Run
 
 1. Clone or download the repository.
 2. Open `index.html` in any modern web browser.
 3. *Note: Since the footer is loaded via JavaScript Fetch, you may need to run this through a local server (e.g., Live Server in VS Code) to avoid CORS issues with local file paths.*
 
-## 📜 Legal
+## Legal
 
 - Content, branding, and images are proprietary to AutoVibe Motors.
 - Privacy Policy and Terms of Use are included in the documentation pages.

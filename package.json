@@ -1,0 +1,24 @@
+{
+  "name": "car-dealer-website",
+  "version": "1.0.0",
+  "description": "AutoVibe Motors is a high-end, responsive multi-page website designed for a luxury car dealership in Nigeria. The platform features a sophisticated dark/light theme system, an interactive car inventory, and a professional aesthetic tailored for a premium user experience.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tomiwa2278/demo.top_automobiles.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Tomiwa2278/demo.top_automobiles/issues"
+  },
+  "homepage": "https://github.com/Tomiwa2278/demo.top_automobiles#readme",
+  "dependencies": {
+    "sharp": "^0.34.5"
+  }
+}
