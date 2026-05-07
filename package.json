@@ -8,16 +8,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Tomiwa2278/demo.top_automobiles.git"
+    "url": "git+https://github.com/Tomiwa2278/top_automobiles.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/Tomiwa2278/demo.top_automobiles/issues"
+    "url": "https://github.com/Tomiwa2278/top_automobiles/issues"
   },
-  "homepage": "https://github.com/Tomiwa2278/demo.top_automobiles#readme",
+  "homepage": "https://github.com/Tomiwa2278/top_automobiles#readme",
   "dependencies": {
     "sharp": "^0.34.5"
   }
